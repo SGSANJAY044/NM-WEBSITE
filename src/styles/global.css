@@ -1,0 +1,14 @@
+:root {
+    --blue-dark: #061e4c;
+    --green: #82d456;
+    --yellow: #fedd69;
+    --red: #e32839;
+}
+
+.arrow {
+    list-style: none;
+}
+
+.arrow li::before {
+    content: "\2192";
+}

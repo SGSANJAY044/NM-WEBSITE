@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Medicine</title>
+    <!-- <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+        integrity="sha512-XJ3ntWHl40opEiE+6dGhfK9NAKOCELrpjiBRQKtu6uJf9Pli8XY+Hikp7rlFzY4ElLSFtzjx9GGgHql7PLSeog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/events.css">
+</head>
+
+<body>
+
+    <div class="relative bg-[url('./assets/images/topbg.png')] h-[20vh]">
+        <div class="z-1 absolute bg-[var(--blue-dark)] inset-0 opacity-80"></div>
+        <div class="z-10 absolute inset-0 flex justify-between items-center text-white mx-4">
+            <div>
+                <h1 class="text-2xl">Event</h1>
+            </div>
+            <div>
+                <h3 class="text-xl">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Home > Our Events
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col items-center justify-center items-center m-4">
+
+        <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)]">
+
+            <div class="absolute top-[10%] left-[-3rem] flex flex-col items-center bg-black">
+                <div class="font-bold text-3xl text-white py-4">
+                    25
+                </div>
+                <div class="text-sm text-white bg-[var(--green)] px-2">
+                    AUG 2022
+                </div>
+            </div>
+
+            <div class="flex h-100 w-[80%]">
+                <div class="flex flex-col p-12 pr-0">
+                    <div class="flex items-center p-2">
+                        <img src="./assets/images/logo-tp.png" alt="" class="rounded-full h-[20px]">
+                        <p class="px-2">by: James Smith | </p>
+                        <i class="fa fa-heart pr-2" aria-hidden="true"></i>
+                        <p class="">13</p>
+                    </div>
+                    <p class="font-medium text-3xl p-2">Lorem ipsum dolor sit amet gate & wisdom, adipisicing elit.</p>
+                    <p class="text-grey-100 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi,
+                        sit?
+                    </p>
+                </div>
+            </div>
+            <div class="relative h-100 w-[50%]">
+                <img src="./assets/images/topbg.png" alt=""
+                    class="h-[88%] absolute top-[6%] bottom-[6%] right-[-20%] object-cover">
+
+                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute top-[10%] left-[15%]">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p class="px-2">United State</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="text-white bg-[var(--blue-dark)]">
+
+        <div class="flex flex-col justify-center items-center bg-[var(--blue-dark)] py-8">
+            <h1 class="font-medium text-xl mb-8">Get Connect with us</h1>
+            <div class="flex items-center unded-2xl">
+                <p class="h-100 border-y-2 border-l-2 py-2 px-4 rounded-l-2xl">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </p>
+                <input class="bg-transparent border-y-2 py-2" id="username" type="text"
+                    placeholder="Enter Your email here">
+                <button
+                    class="bg-[var(--yellow)] text-[var(--blue-dark)] font-bold py-2 px-4  focus:shadow-outline rounded-r-2xl h-100 border-2  border-[var(--yellow)]"
+                    type="button">
+                    Submit Now
+                </button>
+            </div>
+        </div>
+
+        <div class="flex w-full justify-around flex-wrap py-8">
+
+            <div class="flex flex-col items-center ">
+                <img src="./assets/images/logo-tp.png" width="100" height="100" alt="">
+                <h1 class="text-slate-100 font-bold text-xl title-font max-sm:text-xl">NAMMA MEDICINE</h1>
+            </div>
+
+            <div class="flex flex-col max-sm:my-4">
+                <h1 class="text-slate-100 font-bold title-font text-xl max-sm:text-xl">Need to talk to us?</h1>
+                <ol class="py-4">
+                    <li class="text-lg text-slate-100">
+                        <span class="text-[var(--green)]">Email:</span> hello@xyzchildern.org.uk
+                    </li>
+                    <li class="text-lg text-slate-100">
+                        <span class="text-[var(--green)]">Phone:</span> 13-5613797
+                    </li>
+                    <li class="text-lg text-slate-100">
+                        <span class="text-[var(--green)]">Map:</span> Streen no 40 New York United State
+                    </li>
+                </ol>
+            </div>
+
+            <div class="flex flex-col max-sm:my-4">
+                <h1 class="text-slate-100 font-bold title-font text-xl max-sm:text-xl">About Us</h1>
+                <ol class="py-4 arrow">
+                    <li class="text-lg text-slate-100">
+                        Our Vision & Values
+                    </li>
+                    <li class="text-lg text-slate-100">
+                        Our History
+                    </li>
+                    <li class="text-lg text-slate-100">
+                        Our Leadership
+                    </li>
+                    <li class="text-lg text-slate-100">
+                        Our Structure
+                    </li>
+                </ol>
+            </div>
+
+            <div class="flex flex-col max-sm:my-4">
+                <h1 class="text-slate-100 font-bold title-font text-xl max-sm:text-xl">Our Approaches</h1>
+                <ol class="py-4 arrow">
+                    <li class="text-lg text-slate-100">
+                        Child Sponsorship
+                    </li>
+                    <li class="text-lg text-slate-100">
+                        Global Campaign
+                    </li>
+                    <li class="text-lg text-slate-100">
+                        Our Global Strategy
+                    </li>
+                </ol>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="flex flex-col justify-center items-center bg-[var(--yellow)] text-black p-8">
+        <p>Designed by <span class="text-[var(--red)]">IDOT Inc</span>. All rights reserved</p>
+        <p>SiteMap | Privacy Policy | Terms & comditions</p>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

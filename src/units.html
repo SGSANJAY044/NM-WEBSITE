@@ -104,7 +104,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-10" fill="currentColor" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                d="M4.318 6.318a4.5 4.5 0 000.8.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                         </svg>
                         Donate
                     </a>
@@ -116,15 +116,15 @@
         </section>
     </div>
 
-    <div class="z-[-1] relative bg-[url('./assets/images/topbg.png')] h-[20vh]">
+    <div class="z-[-1] relative bg-[url('./assets/images/topbg.png')] bg-cover h-[35vh] max-md:h-[25vh] font-bold">
         <div class="absolute bg-[var(--blue-dark)] inset-0 opacity-80"></div>
-        <div class="absolute inset-0 flex justify-between items-center text-white mx-4">
+        <div class="absolute inset-0 flex justify-between items-center text-white mx-4 p-4">
             <div>
-                <h1 class="text-2xl">Units</h1>
+                <h1 class="text-2xl underline decoration-[var(--green)]">Units</h1>
             </div>
             <div>
                 <h3 class="text-xl">
-                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <i class="fa fa-home text-[var(--yellow)]" aria-hidden="true"></i>
                     Home > Units
                 </h3>
             </div>
@@ -132,15 +132,15 @@
     </div>
 
 
-    <div class="flex my-16 mx-8">
+    <div class="flex my-16 mx-8 justify-center max-lg:flex-col max-md:mx-0">
 
-        <div class="flex flex-col w-[80vw] items-center my-8">
+        <div class="flex flex-col w-[75vw] max-lg:w-[100vw] items-center mb-8 justify-center">
 
-            <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] rounded mb-8">
-                <div class="flex h-100 w-[40%] p-4">
+            <div class="relative flex bg-slate-100 w-[90%] rounded my-8 max-sm:flex-col">
+                <div class="flex h-100 w-[40%] p-4 max-sm:w-[100%]">
                     <img src="./assets/images/topbg.png" alt="" class="rounded-xl" />
                 </div>
-                <div class="flex h-100 w-[60%]">
+                <div class="flex h-100 w-[60%] max-sm:w-[100%]">
                     <div class="flex flex-col p-4 pr-0">
                         <div class="flex items-center p-2">
                             <i class="fa fa-calendar text-[var(--green)]" aria-hidden="true"></i>
@@ -156,11 +156,11 @@
                     </div>
                 </div>
             </div>
-            <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] rounded mb-8">
-                <div class="flex h-100 w-[40%] p-4">
+            <div class="relative flex bg-slate-100 w-[90%] rounded mb-8 max-sm:flex-col">
+                <div class="flex h-100 w-[40%] p-4 max-sm:w-[100%]">
                     <img src="./assets/images/topbg.png" alt="" class="rounded-xl" />
                 </div>
-                <div class="flex h-100 w-[60%]">
+                <div class="flex h-100 w-[60%] max-sm:w-[100%]">
                     <div class="flex flex-col p-4 pr-0">
                         <div class="flex items-center p-2">
                             <i class="fa fa-calendar text-[var(--green)]" aria-hidden="true"></i>
@@ -176,11 +176,11 @@
                     </div>
                 </div>
             </div>
-            <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] rounded mb-8">
-                <div class="flex h-100 w-[40%] p-4">
+            <div class="relative flex bg-slate-100 w-[90%] rounded mb-8 max-sm:flex-col">
+                <div class="flex h-100 w-[40%] p-4 max-sm:w-[100%]">
                     <img src="./assets/images/topbg.png" alt="" class="rounded-xl" />
                 </div>
-                <div class="flex h-100 w-[60%]">
+                <div class="flex h-100 w-[60%] max-sm:w-[100%]">
                     <div class="flex flex-col p-4 pr-0">
                         <div class="flex items-center p-2">
                             <i class="fa fa-calendar text-[var(--green)]" aria-hidden="true"></i>
@@ -196,12 +196,11 @@
                     </div>
                 </div>
             </div>
-
-            <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] rounded mb-8">
-                <div class="flex h-100 w-[40%] p-4">
+            <div class="relative flex bg-slate-100 w-[90%] rounded mb-8 max-sm:flex-col">
+                <div class="flex h-100 w-[40%] p-4 max-sm:w-[100%]">
                     <img src="./assets/images/topbg.png" alt="" class="rounded-xl" />
                 </div>
-                <div class="flex h-100 w-[60%]">
+                <div class="flex h-100 w-[60%] max-sm:w-[100%]">
                     <div class="flex flex-col p-4 pr-0">
                         <div class="flex items-center p-2">
                             <i class="fa fa-calendar text-[var(--green)]" aria-hidden="true"></i>
@@ -220,14 +219,16 @@
 
         </div>
 
-        <div class="flex flex-col">
+        <div
+            class="flex flex-col flex-wrap w-[25vw] max-lg:flex-row max-lg:justify-around max-lg:w-[100vw] max-sm:flex-col max-sm:items-center">
 
-            <div class="flex flex-col text-black my-8">
+            <div
+                class="flex flex-col text-black my-8 max-w-[calc(100vw*0.4)]  max-md:mx-4 max-sm:max-w-[calc(100vw*0.8)]">
                 <div class="bg-[var(--yellow)] font-bold text-2xl p-8 py-4 rounded-t-3xl">
                     <h1>Recent Posts</h1>
                 </div>
 
-                <div class="flex flex-col bg-slate-100 pb-4 rounded-b-3xl">
+                <div class="flex flex-col bg-slate-100 pr-8 rounded-b-3xl">
 
                     <div class="flex items-center my-4">
                         <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
@@ -237,7 +238,7 @@
                         </div>
                     </div>
 
-                    <div class="flex items-center">
+                    <div class="flex items-center my-4">
                         <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
                         <div class="flex flex-col">
                             <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
@@ -245,7 +246,7 @@
                         </div>
                     </div>
 
-                    <div class="flex items-center">
+                    <div class="flex items-center my-4">
                         <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
                         <div class="flex flex-col">
                             <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
@@ -256,7 +257,42 @@
                 </div>
             </div>
 
-            <div class="flex flex-col text-black mb-8">
+            <div
+                class="flex flex-col text-black my-8 max-w-[calc(100vw*0.4)]  max-md:mx-4 max-sm:max-w-[calc(100vw*0.8)]">
+                <div class="bg-[var(--yellow)] font-bold text-2xl p-8 py-4 rounded-t-3xl">
+                    <h1>Recent Posts</h1>
+                </div>
+
+                <div class="flex flex-col bg-slate-100 pr-8 rounded-b-3xl">
+
+                    <div class="flex items-center my-4">
+                        <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
+                        <div class="flex flex-col">
+                            <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
+                            <h1 class="text-grey text-sm">June 16, 2022</h1>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center my-4">
+                        <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
+                        <div class="flex flex-col">
+                            <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
+                            <h1 class="text-grey text-sm">June 16, 2022</h1>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center my-4">
+                        <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
+                        <div class="flex flex-col">
+                            <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
+                            <h1 class="text-grey text-sm">June 16, 2022</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col text-black my-8 h-100 max-w-[calc(100vw*0.4)]  max-lg:hidden">
                 <div class="bg-[var(--yellow)] font-bold text-2xl p-8 py-4 rounded-t-3xl">
                     <h1>Useful Links</h1>
                 </div>
@@ -276,39 +312,6 @@
                 </div>
             </div>
 
-            <div class="flex flex-col text-black mb-8">
-                <div class="bg-[var(--yellow)] font-bold text-2xl p-8 py-4 rounded-t-3xl">
-                    <h1>Recent Posts</h1>
-                </div>
-
-                <div class="flex flex-col bg-slate-100 pb-4 rounded-b-3xl">
-
-                    <div class="flex items-center my-4">
-                        <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
-                        <div class="flex flex-col">
-                            <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
-                            <h1 class="text-grey text-sm">June 16, 2022</h1>
-                        </div>
-                    </div>
-
-                    <div class="flex items-center">
-                        <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
-                        <div class="flex flex-col">
-                            <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
-                            <h1 class="text-grey text-sm">June 16, 2022</h1>
-                        </div>
-                    </div>
-
-                    <div class="flex items-center">
-                        <img src="./assets/images/topbg.png" alt="" class="h-12 w-12 rounded mx-8" />
-                        <div class="flex flex-col">
-                            <h1 class="font-bold">This is how I relax on Lazy Sundays</h1>
-                            <h1 class="text-grey text-sm">June 16, 2022</h1>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
         </div>
 
@@ -317,45 +320,47 @@
 
     <div class="text-white bg-[var(--blue-dark)]">
 
-        <div class="flex flex-col justify-center items-center bg-[var(--blue-dark)] py-8">
-            <h1 class="font-medium text-xl mb-8">Get Connect with us</h1>
+        <div
+            class="flex flex-col justify-center items-center bg-[var(--blue-dark)] py-8  max-sm:w-[80%] max-sm:mx-auto">
+            <h1 class="font-bold text-2xl mb-8">Get Connect with us</h1>
+
             <div class="flex items-center unded-2xl">
                 <p class="h-100 border-y-2 border-l-2 py-2 px-4 rounded-l-2xl">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-envelope text-[var(--yellow)]" aria-hidden="true"></i>
                 </p>
-                <input class="bg-transparent border-y-2 py-2" id="username" type="text"
+                <input class="bg-transparent border-y-2 py-2 text-white placeholder-white" id="username" type="text"
                     placeholder="Enter Your email here">
                 <button
                     class="bg-[var(--yellow)] text-[var(--blue-dark)] font-bold py-2 px-4  focus:shadow-outline rounded-r-2xl h-100 border-2  border-[var(--yellow)]"
                     type="button">
-                    Submit Now
+                    Submit
                 </button>
             </div>
         </div>
 
-        <div class="flex w-full justify-around flex-wrap py-8">
+        <div class="grid grid-cols-4 w-full py-4 max-md:grid-cols-2 max-sm:grid-cols-1">
 
-            <div class="flex flex-col items-center ">
+            <div class="flex flex-col items-center my-4 ">
                 <img src="./assets/images/logo-tp.png" width="100" height="100" alt="">
-                <h1 class="text-slate-100 font-bold text-xl title-font max-sm:text-xl">NAMMA MEDICINE</h1>
+                <h1 class="text-slate-100 font-bold text-xl title-font max-sm:text-xl">NAMMA<br /> MEDICINE</h1>
             </div>
 
-            <div class="flex flex-col max-sm:my-4">
+            <div class="flex flex-col my-4 max-md:items-center w-[80%] mx-auto">
                 <h1 class="text-slate-100 font-bold title-font text-xl max-sm:text-xl">Need to talk to us?</h1>
                 <ol class="py-4">
                     <li class="text-lg text-slate-100">
-                        <span class="text-[var(--green)]">Email:</span> hello@xyzchildern.org.uk
+                        <span class="text-[var(--green)] font-bold">Email:</span> hello@xyzchildern.org.uk
                     </li>
                     <li class="text-lg text-slate-100">
-                        <span class="text-[var(--green)]">Phone:</span> 13-5613797
+                        <span class="text-[var(--green)] font-bold">Phone:</span> 13-5613797
                     </li>
                     <li class="text-lg text-slate-100">
-                        <span class="text-[var(--green)]">Map:</span> Streen no 40 New York United State
+                        <span class="text-[var(--green)] font-bold">Map:</span> Streen no 40 New York United State
                     </li>
                 </ol>
             </div>
 
-            <div class="flex flex-col max-sm:my-4">
+            <div class="flex flex-col my-4 items-center">
                 <h1 class="text-slate-100 font-bold title-font text-xl max-sm:text-xl">About Us</h1>
                 <ol class="py-4 arrow">
                     <li class="text-lg text-slate-100">
@@ -373,7 +378,7 @@
                 </ol>
             </div>
 
-            <div class="flex flex-col max-sm:my-4">
+            <div class="flex flex-col my-4 items-center">
                 <h1 class="text-slate-100 font-bold title-font text-xl max-sm:text-xl">Our Approaches</h1>
                 <ol class="py-4 arrow">
                     <li class="text-lg text-slate-100">
@@ -393,8 +398,8 @@
     </div>
 
     <div class="flex flex-col justify-center items-center bg-[var(--yellow)] text-black p-8">
-        <p>Designed by <span class="text-[var(--red)]">IDOT Inc</span>. All rights reserved</p>
-        <p>SiteMap | Privacy Policy | Terms & comditions</p>
+        <p class="font-bold">Designed by <span class="text-[var(--red)]">IDOT Inc</span>. All rights reserved</p>
+        <p class="font-medium">SiteMap | Privacy Policy | Terms & comditions</p>
     </div>
 
     </div>

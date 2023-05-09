@@ -12,3 +12,7 @@
 .arrow li::before {
     content: "➜";
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}

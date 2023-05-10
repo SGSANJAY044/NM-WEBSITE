@@ -209,10 +209,12 @@
     <!-- main section -->
     <div class="flex flex-col items-center justify-center items-center m-4">
 
-        <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] m-8">
+        <div
+            class="relative flex bg-slate-100 w-[calc(100vw*0.7)] m-8 max-lg:flex-col-reverse max-md:w-[calc(100vw*0.8)]">
 
-            <div class="absolute top-[10%] left-[-3rem] flex flex-col items-center bg-black">
-                <div class="font-bold text-3xl text-white py-4">
+            <div
+                class="z-[10] absolute top-[5%] left-[-3rem] flex flex-col items-center bg-black max-sm:left-[-1.75rem]">
+                <div class="font-bold text-3xl text-white py-4 max-sm:text-lg max-sm:py-2">
                     25
                 </div>
                 <div class="text-sm text-white bg-[var(--green)] px-2">
@@ -220,35 +222,47 @@
                 </div>
             </div>
 
-            <div class="flex h-100 w-[80%]">
-                <div class="flex flex-col p-12 pr-0">
-                    <div class="flex items-center p-2">
+            <div class="flex h-100 w-[80%] max-lg:w-[100%]">
+                <div class="flex flex-col p-12 pr-0 max-lg:p-8">
+                    <div class="flex items-center p-2 max-sm:text-sm max-sm:p-0">
                         <img src="./assets/images/logo-tp.png" alt="" class="rounded-full h-[20px]">
                         <p class="px-2">by: James Smith | </p>
                         <i class="fa fa-heart pr-2" aria-hidden="true"></i>
                         <p class="">13</p>
                     </div>
-                    <p class="font-medium text-3xl p-2">Lorem ipsum dolor sit amet gate & wisdom, adipisicing elit.</p>
+                    <p class="font-medium text-3xl p-2 max-md:text-xl max-sm:text-md">Lorem ipsum dolor sit amet gate &
+                        wisdom, adipisicing elit.</p>
                     <p class="text-grey-100 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi,
                         sit?
                     </p>
                 </div>
             </div>
-            <div class="relative h-100 w-[50%]">
+            <div class="relative m-4 lg:hidden">
+                <img src="./assets/images/topbg.png" alt="" class="mx-auto" />
+                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute
+                    top-[3%] right-[-5%] max-sm:p-2">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p class="px-2">United State</p>
+                </div>
+            </div>
+            <div class="relative h-100 w-[50%] max-lg:w-[100vw] max-lg:hidden">
                 <img src="./assets/images/topbg.png" alt=""
                     class="h-[88%] absolute top-[6%] bottom-[6%] right-[-20%] object-cover">
 
-                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute top-[10%] left-[15%]">
+                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute
+                    top-[10%] left-[20%] ">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <p class="px-2">United State</p>
                 </div>
             </div>
         </div>
 
-        <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] mb-8">
+        <div
+            class="relative flex bg-slate-100 w-[calc(100vw*0.7)] m-8 max-lg:flex-col-reverse max-md:w-[calc(100vw*0.8)]">
 
-            <div class="absolute top-[10%] left-[-3rem] flex flex-col items-center bg-black">
-                <div class="font-bold text-3xl text-white py-4">
+            <div
+                class="z-[10] absolute top-[5%] left-[-3rem] flex flex-col items-center bg-black max-sm:left-[-1.75rem]">
+                <div class="font-bold text-3xl text-white py-4 max-sm:text-lg max-sm:py-2">
                     25
                 </div>
                 <div class="text-sm text-white bg-[var(--green)] px-2">
@@ -256,35 +270,46 @@
                 </div>
             </div>
 
-            <div class="flex h-100 w-[80%]">
-                <div class="flex flex-col p-12 pr-0">
-                    <div class="flex items-center p-2">
+            <div class="flex h-100 w-[80%] max-lg:w-[100%]">
+                <div class="flex flex-col p-12 pr-0 max-lg:p-8">
+                    <div class="flex items-center p-2 max-sm:text-sm max-sm:p-0">
                         <img src="./assets/images/logo-tp.png" alt="" class="rounded-full h-[20px]">
                         <p class="px-2">by: James Smith | </p>
                         <i class="fa fa-heart pr-2" aria-hidden="true"></i>
                         <p class="">13</p>
                     </div>
-                    <p class="font-medium text-3xl p-2">Lorem ipsum dolor sit amet gate & wisdom, adipisicing elit.</p>
+                    <p class="font-medium text-3xl p-2 max-md:text-xl max-sm:text-md">Lorem ipsum dolor sit amet gate &
+                        wisdom, adipisicing elit.</p>
                     <p class="text-grey-100 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi,
                         sit?
                     </p>
                 </div>
             </div>
-            <div class="relative h-100 w-[50%]">
+            <div class="relative m-4 lg:hidden">
+                <img src="./assets/images/topbg.png" alt="" class="mx-auto" />
+                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute
+                top-[3%] right-[-5%] max-sm:p-2">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p class="px-2">United State</p>
+                </div>
+            </div>
+            <div class="relative h-100 w-[50%] max-lg:w-[100vw] max-lg:hidden">
                 <img src="./assets/images/topbg.png" alt=""
                     class="h-[88%] absolute top-[6%] bottom-[6%] right-[-20%] object-cover">
 
-                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute top-[10%] left-[15%]">
+                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute
+                top-[10%] left-[20%] ">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <p class="px-2">United State</p>
                 </div>
             </div>
         </div>
+        <div
+            class="relative flex bg-slate-100 w-[calc(100vw*0.7)] m-8 max-lg:flex-col-reverse max-md:w-[calc(100vw*0.8)]">
 
-        <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] mb-8">
-
-            <div class="absolute top-[10%] left-[-3rem] flex flex-col items-center bg-black">
-                <div class="font-bold text-3xl text-white py-4">
+            <div
+                class="z-[10] absolute top-[5%] left-[-3rem] flex flex-col items-center bg-black max-sm:left-[-1.75rem]">
+                <div class="font-bold text-3xl text-white py-4 max-sm:text-lg max-sm:py-2">
                     25
                 </div>
                 <div class="text-sm text-white bg-[var(--green)] px-2">
@@ -292,82 +317,54 @@
                 </div>
             </div>
 
-            <div class="flex h-100 w-[80%]">
-                <div class="flex flex-col p-12 pr-0">
-                    <div class="flex items-center p-2">
+            <div class="flex h-100 w-[80%] max-lg:w-[100%]">
+                <div class="flex flex-col p-12 pr-0 max-lg:p-8">
+                    <div class="flex items-center p-2 max-sm:text-sm max-sm:p-0">
                         <img src="./assets/images/logo-tp.png" alt="" class="rounded-full h-[20px]">
                         <p class="px-2">by: James Smith | </p>
                         <i class="fa fa-heart pr-2" aria-hidden="true"></i>
                         <p class="">13</p>
                     </div>
-                    <p class="font-medium text-3xl p-2">Lorem ipsum dolor sit amet gate & wisdom, adipisicing elit.</p>
+                    <p class="font-medium text-3xl p-2 max-md:text-xl max-sm:text-md">Lorem ipsum dolor sit amet gate &
+                        wisdom, adipisicing elit.</p>
                     <p class="text-grey-100 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi,
                         sit?
                     </p>
                 </div>
             </div>
-            <div class="relative h-100 w-[50%]">
+            <div class="relative m-4 lg:hidden">
+                <img src="./assets/images/topbg.png" alt="" class="mx-auto" />
+                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute
+            top-[3%] right-[-5%] max-sm:p-2">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p class="px-2">United State</p>
+                </div>
+            </div>
+            <div class="relative h-100 w-[50%] max-lg:w-[100vw] max-lg:hidden">
                 <img src="./assets/images/topbg.png" alt=""
                     class="h-[88%] absolute top-[6%] bottom-[6%] right-[-20%] object-cover">
 
-                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute top-[10%] left-[15%]">
+                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute
+            top-[10%] left-[20%] ">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <p class="px-2">United State</p>
                 </div>
             </div>
         </div>
-
-        <div class="relative flex bg-slate-100 w-[calc(100vw*0.6)] mb-8">
-
-            <div class="absolute top-[10%] left-[-3rem] flex flex-col items-center bg-black">
-                <div class="font-bold text-3xl text-white py-4">
-                    25
-                </div>
-                <div class="text-sm text-white bg-[var(--green)] px-2">
-                    AUG 2022
-                </div>
-            </div>
-
-            <div class="flex h-100 w-[80%]">
-                <div class="flex flex-col p-12 pr-0">
-                    <div class="flex items-center p-2">
-                        <img src="./assets/images/logo-tp.png" alt="" class="rounded-full h-[20px]">
-                        <p class="px-2">by: James Smith | </p>
-                        <i class="fa fa-heart pr-2" aria-hidden="true"></i>
-                        <p class="">13</p>
-                    </div>
-                    <p class="font-medium text-3xl p-2">Lorem ipsum dolor sit amet gate & wisdom, adipisicing elit.</p>
-                    <p class="text-grey-100 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi,
-                        sit?
-                    </p>
-                </div>
-            </div>
-            <div class="relative h-100 w-[50%]">
-                <img src="./assets/images/topbg.png" alt=""
-                    class="h-[88%] absolute top-[6%] bottom-[6%] right-[-20%] object-cover">
-
-                <div class="flex items-center bg-[var(--yellow)] p-4 text-sm absolute top-[10%] left-[15%]">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <p class="px-2">United State</p>
-                </div>
-            </div>
-        </div>
-
     </div>
 
     <!-- footer section -->
     <div class="text-white bg-[var(--blue-dark)]">
 
-        <div
-            class="flex flex-col justify-center items-center bg-[var(--blue-dark)] py-8  max-sm:w-[80%] max-sm:mx-auto">
+        <div class="flex flex-col justify-center items-center bg-[var(--blue-dark)] py-8">
             <h1 class="font-bold text-2xl mb-8">Get Connect with us</h1>
 
-            <div class="flex items-center unded-2xl">
+            <div class="flex items-center justify-center">
                 <p class="h-100 border-y-2 border-l-2 py-2 px-4 rounded-l-2xl">
                     <i class="fa fa-envelope text-[var(--yellow)]" aria-hidden="true"></i>
                 </p>
-                <input class="bg-transparent border-y-2 py-2 text-white placeholder-white" id="username" type="text"
-                    placeholder="Enter Your email here">
+                <input class="bg-transparent border-y-2 py-2 text-white placeholder-white max-sm:w-[55%]" id="username"
+                    type="text" placeholder="Enter Your email here">
                 <button
                     class="bg-[var(--yellow)] text-[var(--blue-dark)] font-bold py-2 px-4  focus:shadow-outline rounded-r-2xl h-100 border-2  border-[var(--yellow)]"
                     type="button">
@@ -376,7 +373,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-4 w-full py-4 max-md:grid-cols-2 max-sm:grid-cols-1">
+        <div class="grid grid-cols-4 w-full py-4 max-lg:grid-cols-2 max-sm:grid-cols-1">
 
             <div class="flex flex-col items-center my-4 ">
                 <img src="./assets/images/logo-tp.png" width="100" height="100" alt="">
@@ -435,7 +432,7 @@
 
     </div>
 
-    <div class="flex flex-col justify-center items-center bg-[var(--yellow)] text-black p-8">
+    <div class="flex flex-col justify-center items-center bg-[var(--yellow)] text-black p-8 text-center">
         <p class="font-bold">Designed by <span class="text-[var(--red)]">IDOT Inc</span>. All rights reserved</p>
         <p class="font-medium">SiteMap | Privacy Policy | Terms & comditions</p>
     </div>

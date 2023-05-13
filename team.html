@@ -27,7 +27,7 @@
                         <div class=" leading-5">Namma medicine</div>
                     </a>
                     <!-- Nav Links -->
-                    <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                    <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-8 lg:space-x-12">
                         <li><a class="hover:text-maingreen text-black" href="./index.html">Home</a></li>
                         <li><a class="hover:text-maingreen text-black" href="#">
                                 <button class=" text-center inline-flex items-center" type="button"
@@ -40,19 +40,19 @@
                                     id="dropdown">
                                     <ul class="py-1" aria-labelledby="dropdown">
                                         <li>
-                                            <a href="#"
+                                            <a href="./founder.html"
                                                 class="text-sm hover:text-maingreen text-gray block px-4 py-2">Founder</a>
                                         </li>
                                         <li>
-                                            <a href="#"
+                                            <a href="./team.html"
                                                 class="text-sm hover:text-maingreen text-gray block px-4 py-2">Team</a>
                                         </li>
                                         <li>
-                                            <a href="#"
+                                            <a href="./mentor.html"
                                                 class="text-sm hover:text-maingreen text-gray block px-4 py-2">Mentor</a>
                                         </li>
                                         <li>
-                                            <a href="#"
+                                            <a href="./patron.html"
                                                 class="text-sm hover:text-maingreen text-gray block px-4 py-2">Patrons</a>
                                         </li>
                                     </ul>
@@ -64,8 +64,8 @@
                     <!-- Header Icons -->
                 </div>
                 <div
-                    class="hidden xl:flex items-center space-x-5 items-center justify-center font-semibold font-heading space-x-12 bg-maingreen h-   w-32 rounded-r-lg">
-                    <a class="hover:text-mainyellow text-white flex px-4" href="#">
+                    class="hidden md:flex items-center space-x-5 items-center justify-center font-semibold font-heading space-x-12 bg-maingreen h-   w-32 rounded-r-lg mr-auto">
+                    <a class="hover:text-mainyellow text-white flex lg:px-4" href="./register.html">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-10" fill="currentColor" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -75,7 +75,7 @@
                     </a>
 
                 </div>
-                <div class="flex lg:hidden">
+                <div class="flex md:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -88,7 +88,7 @@
                         </path>
                         </svg>
                     </a>
-                    <div class="lg:hidden">
+                    <div class="md:hidden">
                         <button class="navbar-burger flex items-center text-blue-600 p-3">
                             <svg class="block my-4 h-5 w-5 fill-black " viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -166,9 +166,38 @@
                                 <a class="block p-4 text-sm font-semibold text-gray-400 hover:text-maingreen rounded"
                                     href="./index.html">Home</a>
                             </li>
-                            <li class="mb-1">
-                                <a class="block p-4 text-sm font-semibold text-gray-400  hover:text-maingreen rounded"
-                                    href="#">About Us</a>
+                            <li>
+                                <button type="button"
+                                    class="flex items-center w-full text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                                    aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
+                                    <span
+                                        class="block p-4 text-sm font-semibold text-gray-400 hover:text-maingreen rounded"
+                                        sidebar-toggle-item>About us</span>
+                                    <svg sidebar-toggle-item class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                                <ul id="dropdown-example" class="hidden py-2 space-y-2">
+                                    <li>
+                                        <a href="./founder.html"
+                                            class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">Founder</a>
+                                    </li>
+                                    <li>
+                                        <a href="./team.html"
+                                            class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="./mentor.html"
+                                            class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">Mentor</a>
+                                    </li>
+                                    <li>
+                                        <a href="./patron.html"
+                                            class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">Patrons</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="mb-1">
                                 <a class="block p-4 text-sm font-semibold text-gray-400 hover:text-maingreen rounded"
@@ -347,7 +376,7 @@
                         <a href="./events.html" target="_blank">Events</a>
                     </li>
                     <li class="text-lg text-slate-100">
-                        <a href="./events.html" target="_blank">Register</a>
+                        <a href="./register.html" target="_blank">Register</a>
                     </li>
                 </ol>
             </div>
